@@ -1,0 +1,25 @@
+.box { 
+height: 100px;
+width: 100px;
+background-color: #888888;
+transform: translate(200px, 200px);
+
+}
+
+.box:hover {
+    transform:scale(2);
+    transition-duration: 1s;
+    background-color: #888800;
+    transition-timing-function: ease-in;
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    transition: transfom 1s ease-in;
+}
+
+img:hover {
+    transform: scale(2);
+}
